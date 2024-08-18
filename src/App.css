@@ -1,0 +1,69 @@
+/* Global Styles */
+body {
+  background-color: #121212; /* Dark background for the entire app */
+  color: #e0e0e0; /* Light gray text for contrast */
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 24px;
+  background-color: #121212; /* Ensure background color matches */
+}
+
+/* AppBar Styles */
+.MuiAppBar-root {
+  background-color: #333; /* Darker background for the AppBar */
+  color: #e0e0e0; /* Light text color for AppBar */
+}
+
+/* Drawer Styles */
+.MuiDrawer-paper {
+  background-color: #333; /* Same dark background for Drawer */
+  color: #e0e0e0; /* Light text color in Drawer */
+}
+
+.MuiListItemText-primary {
+  color: #e0e0e0; /* Light text color for list items */
+}
+
+/* Form Styles */
+.MuiTextField-root {
+  margin: 8px 0;
+}
+
+.MuiTextField-root .MuiInputBase-root {
+  color: #e0e0e0; /* Light text color in text fields */
+}
+
+.MuiTextField-root .MuiInputLabel-root {
+  color: #b0b0b0; /* Slightly lighter text color for labels */
+}
+
+/* Button Styles */
+.MuiButton-root {
+  background-color: #6200ea; /* Accent color for buttons */
+  color: white;
+  &:hover {
+    background-color: #3700b3; /* Darker shade for hover effect */
+  }
+}
+
+/* Snackbar Styles */
+.MuiSnackbarContent-root {
+  background-color: #333; /* Background color for Snackbar */
+  color: #e0e0e0; /* Light text color for Snackbar */
+}
+
+/* Additional Styles */
+.container {
+  padding: 16px;
+  background-color: #121212;
+}

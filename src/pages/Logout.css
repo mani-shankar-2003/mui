@@ -1,0 +1,49 @@
+/* Ensure you import this CSS file in your Logout.tsx */
+.page-content {
+    padding: 24px;
+    background-color: #1f1f1f; /* Slightly lighter background for the page content */
+    color: #e0e0e0; /* Light text color */
+    min-height: 100vh;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5); /* Subtle inner shadow for depth */
+  }
+  
+  .MuiAppBar-root {
+    background-color: #333; /* Darker background for the AppBar */
+  }
+  
+  .MuiDrawer-paper {
+    background-color: #333; /* Dark background for the Drawer */
+    color: #e0e0e0; /* Light text color in Drawer */
+  }
+  
+  .MuiListItemText-primary {
+    color: #e0e0e0; /* Light text color for list items */
+  }
+  
+  .MuiTextField-root {
+    margin: 8px 0;
+  }
+  
+  .MuiTextField-root .MuiInputBase-root {
+    color: #e0e0e0; /* Light text color in text fields */
+  }
+  
+  .MuiTextField-root .MuiInputLabel-root {
+    color: #b0b0b0; /* Slightly lighter text color for labels */
+  }
+  
+  .MuiButton-root {
+    background-color: #6200ea; /* Accent color for buttons */
+    color: white;
+    margin-top: 16px;
+    width: 100%;
+    &:hover {
+      background-color: #3700b3; /* Darker shade for hover effect */
+    }
+  }
+  
+  .MuiSnackbarContent-root {
+    background-color: #333; /* Background color for Snackbar */
+    color: #e0e0e0; /* Light text color for Snackbar */
+  }
+  
